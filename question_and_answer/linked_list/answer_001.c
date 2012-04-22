@@ -45,7 +45,7 @@ int main()
 
 Node* ReverseList(Node* pHead)
 {
-	Node* p = pHead;
+	Node* p = NULL;
 	Node* q = NULL;
 
 	if (pHead != NULL)
