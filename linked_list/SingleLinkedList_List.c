@@ -80,6 +80,8 @@ int main()
 	pHead = DeleteTail(pHead);
 	OutputList(pHead);
 
+	pHead = DestroyList(pHead);
+
 	return 0;
 }
 
